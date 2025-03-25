@@ -1,5 +1,5 @@
 # iptables-to-cilium-converter
-This is a highly experimental vibecoded (yes, really :P) converter from iptables rules to cilium host firewall policy. use at your own risk, i don't even nearly have a clue what's going on ;) 
+This is a highly experimental vibecoded (yes, really :P) converter from iptables rules to cilium ClusterwideNetworkPolicy. use at your own risk, i don't even nearly have a clue what's going on ;) 
 No, really, just bc. someone in the cilium slack asked if there is a tool, there is none, so I was bored and thought "why not try" :)
 
 Used Claude 3.7 Sonnet and openAI for this. Took 15 min, so more or less a joke. I repeat: USE AT YOUR OWN RISK :-P
