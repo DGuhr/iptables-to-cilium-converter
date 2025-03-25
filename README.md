@@ -6,6 +6,7 @@ Used Claude 3.7 Sonnet and openAI for this. Took 15 min, so more or less a joke.
 
 Usage with the (also llm-generated) example file iptablesrules.txt: 
 
+0) Save your rules via e.g. `iptables-save > iptablesrules.txt`
 1) run `go build . -o iptables-cilium-converter` 
-2) run `./iptables-to-cilium-converter --input iptablesrules.txt --output policy.yaml`
+2) run `./iptables-cilium-converter --input iptablesrules.txt --output policy.yaml`
 3) apply your policy.yaml and get a beer. What could possibly go wrong ;-) (no, really, don't do this. I have no idea if this works. holy.)
